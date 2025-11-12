@@ -34,7 +34,7 @@ my_salt = secrets.token_hex(16) # 32자리 랜덤 솔트 생성
 # 1. 사용자에게 'test'와 같은 서브도메인 부분을 입력받습니다.
 subdomain_part = input("코드로 만들 서브도메인 (예: test)을 입력하세요: ")
 
-# 2. 사용자에게 'itforest.net'과 같은 메인 도메인 부분을 입력받습니다.
+# 1. 사용자에게 test.com와 같은 서브도메인 부분을 입력받습니다.
 main_domain_part = input("연결할 메인 도메인 (예: itforest.net)을 입력하세요: ")
 
 # 3. 함수를 호출하여 코드를 생성합니다.
